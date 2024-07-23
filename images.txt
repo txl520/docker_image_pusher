@@ -11,6 +11,9 @@ nginx
 
 --platform=linux/amd64 nginx:1.21.6
 --platform=linux/arm64/v8 nginx:1.21.6
+
+--platform=linux/amd64 cockroachdb/cockroach:v24.1.2
+--platform=linux/arm64/v8 cockroachdb/cockroach:v24.1.2
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest

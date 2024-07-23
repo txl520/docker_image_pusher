@@ -5,6 +5,12 @@ nginx
 
 --platform=linux/amd64 elasticsearch:8.8.1
 --platform=linux/arm64/v8 elasticsearch:8.8.1
+
+--platform=linux/amd64 redis:7.0.0
+--platform=linux/arm64/v8 redis:7.0.0
+
+--platform=linux/amd64 nginx:1.21.6
+--platform=linux/arm64/v8 nginx:1.21.6
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest

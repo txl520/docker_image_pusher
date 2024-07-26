@@ -15,8 +15,8 @@ nginx
 --platform=linux/amd64 cockroachdb/cockroach:v24.1.2
 --platform=linux/arm64/v8 cockroachdb/cockroach:v24.1.2
 
---platform=linux/amd64 cockroachdb/neo4j:5.21.2-community
---platform=linux/arm64/v8 cockroachdb/neo4j:5.21.2-community
+--platform=linux/amd64 cockroachdb/neo4j:5.15.0-community
+--platform=linux/arm64/v8 cockroachdb/neo4j:5.15.0-community
 
 --platform=linux/amd64 cockroachdb/neo4j:4.4.18-community
 --platform=linux/arm64/v8 cockroachdb/neo4j:4.4.18-community

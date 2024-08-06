@@ -1,22 +1,25 @@
-nginx
-ghcr.io/dockur/windows-arm:1.19
+#nginx
+#ghcr.io/dockur/windows-arm:1.19
 
-ghcr.io/dockur/windows-arm:2.01
+#ghcr.io/dockur/windows-arm:2.01
 
---platform=linux/amd64 mysql:8.0.29
---platform=linux/arm64/v8 mysql:8.0.29
+--platform=linux/arm64/v8 ghcr.io/dockur/windows-arm:2.01
+--platform=linux/arm64/v8 ghcr.io/dockur/windows-arm:1.19
 
---platform=linux/amd64 elasticsearch:8.8.1
---platform=linux/arm64/v8 elasticsearch:8.8.1
+#--platform=linux/amd64 mysql:8.0.29
+#--platform=linux/arm64/v8 mysql:8.0.29
 
---platform=linux/amd64 redis:7.0.0
---platform=linux/arm64/v8 redis:7.0.0
+#--platform=linux/amd64 elasticsearch:8.8.1
+#--platform=linux/arm64/v8 elasticsearch:8.8.1
 
---platform=linux/amd64 nginx:1.21.6
---platform=linux/arm64/v8 nginx:1.21.6
+#--platform=linux/amd64 redis:7.0.0
+#--platform=linux/arm64/v8 redis:7.0.0
 
---platform=linux/amd64 cockroachdb/cockroach:v24.1.2
---platform=linux/arm64/v8 cockroachdb/cockroach:v24.1.2
+#--platform=linux/amd64 nginx:1.21.6
+#--platform=linux/arm64/v8 nginx:1.21.6
+
+#--platform=linux/amd64 cockroachdb/cockroach:v24.1.2
+#--platform=linux/arm64/v8 cockroachdb/cockroach:v24.1.2
 
 #
 
@@ -32,7 +35,7 @@ ghcr.io/dockur/windows-arm:2.01
 #--platform=linux/amd64 cockroachdb/neo4j:4.4.3
 #--platform=linux/arm64/v8 cockroachdb/neo4j:4.4.3
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist

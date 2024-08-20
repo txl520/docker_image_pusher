@@ -3,8 +3,11 @@
 
 #ghcr.io/dockur/windows-arm:2.01
 
---platform=linux/arm64/v8 ghcr.io/dockur/windows-arm:2.01
---platform=linux/arm64/v8 ghcr.io/dockur/windows-arm:1.19
+--platform=linux/amd64 python:3.9.13
+--platform=linux/arm64/v8 python:3.9.13
+
+#--platform=linux/arm64/v8 ghcr.io/dockur/windows-arm:2.01
+#--platform=linux/arm64/v8 ghcr.io/dockur/windows-arm:1.19
 
 #--platform=linux/amd64 mysql:8.0.29
 #--platform=linux/arm64/v8 mysql:8.0.29

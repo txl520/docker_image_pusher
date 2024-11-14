@@ -6,7 +6,18 @@
 #--platform=linux/amd64 python:3.9.13
 #--platform=linux/arm64/v8 python:3.9.13
 
---platform=linux/amd64 docker.io/pytorch/pytorch:1.13.1-cuda11.6-cudnn8-devel
+--platform=linux/amd64 openjdk:8
+--platform=linux/arm64/v8 openjdk:8
+
+--platform=linux/amd64 python:3.7
+--platform=linux/arm64/v8 python:3.7
+
+
+--platform=linux/amd64 nginx:alpine
+--platform=linux/arm64/v8 nginx:alpine
+
+
+#--platform=linux/amd64 docker.io/pytorch/pytorch:1.13.1-cuda11.6-cudnn8-devel
 
 #--platform=linux/arm64/v8 ghcr.io/dockur/windows-arm:2.01
 #--platform=linux/arm64/v8 ghcr.io/dockur/windows-arm:1.19

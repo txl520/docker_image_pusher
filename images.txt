@@ -1,3 +1,15 @@
+--platform=linux/amd64 kdvolder/jdk8:latest
+
+--platform=linux/amd64 openjdk:8u342
+--platform=linux/arm64/v8 openjdk:8u342
+
+--platform=linux/amd64 openjdk:21-ea-jdk
+--platform=linux/arm64/v8 openjdk:21-ea-jdk
+
+--platform=linux/amd64 openjdk:17-ea-jdk
+--platform=linux/arm64/v8 openjdk:17-ea-jdk
+
+
 #nginx
 #ghcr.io/dockur/windows-arm:1.19
 
@@ -16,11 +28,11 @@
 #--platform=linux/amd64 nginx:alpine
 #--platform=linux/arm64/v8 nginx:alpine
 
-#docker pull nvidia/cuda:12.6.2-base-ubuntu22.04
+# docker pull nvidia/cuda:12.6.2-base-ubuntu22.04
 
 #--platform=linux/amd64 nvidia/cuda:12.6.2-base-ubuntu22.04
 
---platform=linux/amd64 nvidia/cuda:11.7.1-base-ubuntu20.04
+#--platform=linux/amd64 nvidia/cuda:11.7.1-base-ubuntu20.04
 #--platform=linux/arm64/v8 nginx:alpine
 
 #--platform=linux/amd64 docker.io/pytorch/pytorch:1.13.1-cuda11.6-cudnn8-devel

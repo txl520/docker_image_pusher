@@ -1,5 +1,4 @@
 --platform=linux/amd64 neo4j:3.5.22-community
---platform=linux/arm64/v8 neo4j:3.5.22-community
 
 --platform=linux/amd64 neo4j:5.15.0-community
 --platform=linux/arm64/v8 neo4j:5.15.0-community

@@ -1,6 +1,6 @@
 
 --platform=linux/amd64 dockersamples/visualizer:stable
---platform=linux/arm64/v8 dockersamples/visualizer:stable
+
 
 
 

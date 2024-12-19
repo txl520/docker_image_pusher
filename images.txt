@@ -1,14 +1,20 @@
---platform=linux/amd64 neo4j:3.5.22-community
 
---platform=linux/amd64 neo4j:5.15.0-community
---platform=linux/arm64/v8 neo4j:5.15.0-community
-
---platform=linux/amd64 neo4j:5.26.0-community
---platform=linux/arm64/v8 neo4j:5.26.0-community
+--platform=linux/amd64 dockersamples/visualizer:stable
+--platform=linux/arm64/v8 dockersamples/visualizer:stable
 
 
---platform=linux/amd64 neo4j:4.4.39-community
---platform=linux/arm64/v8 neo4j:4.4.39-community
+
+#--platform=linux/amd64 neo4j:3.5.22-community
+
+#--platform=linux/amd64 neo4j:5.15.0-community
+#--platform=linux/arm64/v8 neo4j:5.15.0-community
+
+#--platform=linux/amd64 neo4j:5.26.0-community
+#--platform=linux/arm64/v8 neo4j:5.26.0-community
+
+
+#--platform=linux/amd64 neo4j:4.4.39-community
+#--platform=linux/arm64/v8 neo4j:4.4.39-community
 
 
 

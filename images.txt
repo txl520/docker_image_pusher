@@ -1,8 +1,13 @@
 
---platform=linux/amd64 dockersamples/visualizer:stable
+--platform=linux/amd64 hagb/docker-easyconnect:vncless-7.6.7
+--platform=linux/amd64 hagb/docker-easyconnect:7.6.7
+--platform=linux/amd64 hagb/docker-easyconnect:vncless-7.6.3
+--platform=linux/amd64 hagb/docker-easyconnect:7.6.3
+--platform=linux/amd64 hagb/docker-easyconnect:cli
 
 
 
+#--platform=linux/amd64 dockersamples/visualizer:stable
 
 #--platform=linux/amd64 neo4j:3.5.22-community
 

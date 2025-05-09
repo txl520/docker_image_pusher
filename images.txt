@@ -1,5 +1,7 @@
---platform=linux/amd64 ollama/ollama:0.5.4
---platform=linux/arm64/v8 ollama/ollama:0.5.4
+--platform=linux/amd64 mazurkatarzyna/ollama-deepseek-r1-7b
+
+#--platform=linux/amd64 ollama/ollama:0.5.4
+#--platform=linux/arm64/v8 ollama/ollama:0.5.4
 
 #--platform=linux/amd64 bitnami/elasticsearch:8.8.1
 #--platform=linux/arm64 bitnami/elasticsearch:8.8.1

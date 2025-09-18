@@ -1,8 +1,11 @@
---platform=linux/amd64 nvidia/cuda:12.0.0-base-ubi8
---platform=linux/arm64/v8 nvidia/cuda:12.0.0-base-ubi8
+--platform=linux/amd64 rabbitmq:3.13-management
+--platform=linux/arm64/v8 rabbitmq:3.13-management
 
---platform=linux/amd64 nvidia/cuda:12.0.0-base-ubuntu22.04
---platform=linux/arm64/v8 nvidia/cuda:12.0.0-base-ubuntu22.04
+#--platform=linux/amd64 nvidia/cuda:12.0.0-base-ubi8
+#--platform=linux/arm64/v8 nvidia/cuda:12.0.0-base-ubi8
+
+#--platform=linux/amd64 nvidia/cuda:12.0.0-base-ubuntu22.04
+#--platform=linux/arm64/v8 nvidia/cuda:12.0.0-base-ubuntu22.04
 
 #--platform=linux/amd64 mazurkatarzyna/ollama-deepseek-r1-7b
 

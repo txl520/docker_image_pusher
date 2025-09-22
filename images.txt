@@ -1,5 +1,8 @@
---platform=linux/amd64 rabbitmq:3.13-management
---platform=linux/arm64/v8 rabbitmq:3.13-management
+--platform=linux/amd64 apache/kafka:3.8.1
+--platform=linux/arm64/v8 apache/kafka:3.8.1
+
+#--platform=linux/amd64 rabbitmq:3.13-management
+#--platform=linux/arm64/v8 rabbitmq:3.13-management
 
 #--platform=linux/amd64 nvidia/cuda:12.0.0-base-ubi8
 #--platform=linux/arm64/v8 nvidia/cuda:12.0.0-base-ubi8

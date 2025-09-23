@@ -1,5 +1,12 @@
---platform=linux/amd64 apache/kafka:3.8.1
---platform=linux/arm64/v8 apache/kafka:3.8.1
+--platform=linux/amd64 golang:1.24.7
+--platform=linux/arm64/v8 golang:1.24.7
+
+--platform=linux/amd64 golang:1.25
+--platform=linux/arm64/v8 golang:1.25
+
+
+#--platform=linux/amd64 apache/kafka:3.8.1
+#--platform=linux/arm64/v8 apache/kafka:3.8.1
 
 #--platform=linux/amd64 rabbitmq:3.13-management
 #--platform=linux/arm64/v8 rabbitmq:3.13-management

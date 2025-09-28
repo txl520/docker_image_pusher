@@ -1,8 +1,12 @@
---platform=linux/amd64 golang:1.24.7
---platform=linux/arm64/v8 golang:1.24.7
 
---platform=linux/amd64 golang:1.25
---platform=linux/arm64/v8 golang:1.25
+--platform=linux/amd64 nsqio/nsq:v1.3.0
+--platform=linux/arm64/v8 nsqio/nsq:v1.3.0
+
+#--platform=linux/amd64 golang:1.24.7
+#--platform=linux/arm64/v8 golang:1.24.7
+
+#--platform=linux/amd64 golang:1.25
+#--platform=linux/arm64/v8 golang:1.25
 
 
 #--platform=linux/amd64 apache/kafka:3.8.1

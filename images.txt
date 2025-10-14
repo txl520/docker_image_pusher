@@ -1,5 +1,11 @@
---platform=windows/amd64 nsqio/nsq:v1.3.0
---platform=windows/arm64/v8 nsqio/nsq:v1.3.0
+--platform=linux/amd64 python:3.12.11
+--platform=linux/arm64/v8 python:3.12.11
+
+--platform=linux/amd64 python:3.10.11
+--platform=linux/arm64/v8 python:3.10.11
+
+#--platform=windows/amd64 nsqio/nsq:v1.3.0
+#--platform=windows/arm64/v8 nsqio/nsq:v1.3.0
 
 #--platform=linux/amd64 nsqio/nsq:v1.3.0
 #--platform=linux/arm64/v8 nsqio/nsq:v1.3.0

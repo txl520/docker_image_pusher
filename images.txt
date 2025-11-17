@@ -1,5 +1,11 @@
---platform=linux/amd64 python:3.12.11
---platform=linux/arm64/v8 python:3.12.11
+--platform=linux/amd64 alpine:3.16
+--platform=linux/arm64/v8 alpine:3.16
+
+--platform=linux/amd64 alpine:3.22.2
+--platform=linux/arm64/v8 alpine:3.22.2
+
+#--platform=linux/amd64 python:3.12.11
+#--platform=linux/arm64/v8 python:3.12.11
 
 --platform=linux/amd64 python:3.10.11
 --platform=linux/arm64/v8 python:3.10.11
